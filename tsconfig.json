@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"baseUrl": "src",
+		"paths": {
+			"components/*": ["components/*"]
+		},
+		"outDir": "./build/",
+		"sourceMap": true,
+    		"noImplicitAny": true,
+    		"strictNullChecks": true,
+		"module": "commonjs",
+                "removeComments": true,
+                "preserveConstEnums": true,
+                "target": "es5",
+		"jsx": "react",
+		"lib": [
+			"es5",
+			"es6",
+			"dom"
+		]
+	},
+	"exclude": [
+		"./node_modules/**"
+	]
+}
