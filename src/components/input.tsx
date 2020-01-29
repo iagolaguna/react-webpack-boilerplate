@@ -5,4 +5,4 @@ type Props = {
   value: string
 }
 
-export const Input = ({ onChange, value }: Props) => <input value={value} onChange={event => onChange(event.target.value)} type="text" />
+export const Input = ({ onChange, value }: Props) => <input value={value} onChange={event => onChange(event.target.value)} type='text' />

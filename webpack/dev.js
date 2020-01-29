@@ -16,7 +16,7 @@ module.exports = create({
 
   devServer: {
     inline:   true,
-    port: 3005,
+    port: 3000,
     contentBase: PUBLIC,
     historyApiFallback: true,
   },

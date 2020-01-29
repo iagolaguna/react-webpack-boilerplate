@@ -10,7 +10,7 @@ module.exports = create({
   },
 
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(),
     new HtmlWebPackPlugin({
       inject: true,
       template: HTML_TEMPLATE
@@ -18,6 +18,7 @@ module.exports = create({
   ],
 
   optimization: {
+    minimize: true,
     minimizer: [new TerserPlugin()],
   },
 
