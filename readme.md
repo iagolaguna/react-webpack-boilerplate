@@ -3,7 +3,7 @@
   <br />
   <br />
   
-  <h1 align="center">Eventials Front-End Boilerplate :package: </h1>
+  <h1 align="center">Front-End Boilerplate :package: </h1>
   <p font-size="18px" align="center"><i> React + TS + Webpack </i> :rocket: </p>
   <br />
   <br />
